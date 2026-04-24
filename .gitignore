@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data (do not commit raw CSVs to git — too large)
+data/Fake.csv
+data/True.csv
+
+# Trained models & plots (large binary files)
+models/*.pkl
+models/model_metrics.csv
+models/dataset_stats.json
+plots/*.png
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
